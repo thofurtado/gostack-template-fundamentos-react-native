@@ -37,7 +37,7 @@ const FloatingCart: React.FC = () => {
     const total = products.reduce((accumulator, product) => {
       return accumulator + product.quantity;
     }, 0);
-    return 0;
+    return total;
   }, [products]);
 
   return (
